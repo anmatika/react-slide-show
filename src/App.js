@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Container } from 'reactstrap';
+import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+import faHeart from '@fortawesome/fontawesome-free-solid/faHeart';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import SliderDemo from './Components/SliderDemo';
 import './App.css';
@@ -12,7 +14,10 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">The OS Kittens</h1>
+          <h1 className="App-title">
+            The OS Kittens Slideshow
+            <FontAwesomeIcon className="ml-2" icon={faHeart} />
+          </h1>
           <Container>
             <SliderDemo />
           </Container>
