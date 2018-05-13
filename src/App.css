@@ -23,6 +23,17 @@
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container {
+  margin: 105px auto;
+  padding: 40px;
+  width: 80%;
+  color: #333;
+  background: #ececec;
 }
