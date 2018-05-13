@@ -12,7 +12,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Organic Slide Show</h1>
+          <h1 className="App-title">The OS Kittens</h1>
           <Container>
             <SliderDemo />
           </Container>
