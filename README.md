@@ -12,10 +12,10 @@ Develop version will run at http://localhost:3000
 ## Publish
 
     yarn build
-    ./docker-build
-    ./docker-run
+    # ./docker-build
+    # ./docker-run
 
-Published app will run on nginx at http://localhost
+Published app will run on nginx at http://localhost:4200
 
 ## PUBLISHED DEMO
 
