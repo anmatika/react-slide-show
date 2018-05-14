@@ -11,6 +11,7 @@ Develop version will run at http://localhost:3000
 
 ## Publish
 
+    yarn install
     yarn build
     # ./docker-build
     # ./docker-run
